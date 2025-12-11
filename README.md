@@ -63,22 +63,32 @@ uv pip freeze > requirements.txt
 ```
 
 ## 📂 5. Estructura del repositorio
+```bash
 .
-├── data/
-│   ├── covid-vaccination-vs-death_ratio.csv      # Dataset utilizado para análisis
-│   ├── synthetic_covid19_data.csv                # Dataset sintético
+├── assets/                                      # Imágenes generadas para el storytelling
+│   ├── bar_cantidad_paises.jpeg
+│   ├── hitmap_evidencia_estatica.jpeg
+│   ├── linear_efecto_vacuna.jpeg
+│   ├── linear_evaluacion_5_paises.jpeg
+│   ├── linear_evolucion_10_paises.jpeg
+│   ├── linear_tendencia_mundial.jpeg
+│   ├── map_evaluacion_global.jpeg
+│   └── map_mortalidad_acumulada.jpeg
 │
-├── src/
-│   └── index_proyecto_grupal.ipynb               # Notebook principal (EDA + storytelling)
+├── data/                                        # Datos utilizados en el análisis
+│   └── covid-vaccination-vs-death_ratio.csv
 │
-├── ppt/                                          # Presentación final del proyecto
+├── ppt/                                         # Presentación del storytelling final
+│   └── SARS-CoV-2, Pandemia, vacunas y sus efectos en la mortalidad - Reparado.pdf
 │
-├── assets/                                       # Imágenes y recursos gráficos
+├── src/                                         # Código fuente (notebook principal)
+│   └── index_proyecto_grupal.ipynb
 │
-├── requirements.txt                              # Dependencias del entorno reproducible
-├── README.md                                     # Documentación principal
-└── LICENSE                                       # Licencia del proyecto
+├── requirements.txt                             # Dependencias para reproducir el entorno
+├── README.md                                    # Documentación principal del proyecto
+└── LICENSE                                      # Licencia del repositorio
 
+```
 
 ## 📊 6. Contenidos del análisis
 
