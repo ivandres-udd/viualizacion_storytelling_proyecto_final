@@ -93,7 +93,6 @@ uv pip freeze > requirements.txt
 
 ## 📊 6. Resumen del Análisis y Visualizaciones
 
-A continuación se presenta un punteo estructurado que resume todo el análisis realizado a lo largo del proyecto, integrando cada visualización con su aporte narrativo.
 
 ### 🧭 1. Contexto inicial: La pandemia y sus primeras consecuencias
 
