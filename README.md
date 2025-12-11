@@ -6,6 +6,9 @@ El análisis principal está implementado en el notebook:
 
 - `src/index_proyecto_grupal.ipynb`
 
+Tambien, dejamos link del chat que utilizamos para el desrrollo de esta actividad:
+👉 Visita Chat: https://gemini.google.com/share/1cdc5fa76e92
+
 ---
 
 ## 🚀 1. Requisitos previos
@@ -26,27 +29,35 @@ Recomendado:
 
 ```bash
 git clone https://github.com/ivandres-udd/viualizacion_storytelling_proyecto_final.git
+
+#dirigite a la carpeta del proyeto
+
 cd viualizacion_storytelling_proyecto_final
 ```
 
 ## 🧪 3. Crear y activar entorno virtual con uv
 
-# Crear entorno virtual
+### Crear entorno virtual
+```bash
 uv venv .venv
+```
 
-# Activar entorno
-# macOS / Linux
+### Activar entorno
+#### macOS / Linux
+```bash
 source .venv/bin/activate
-
-# Windows PowerShell
-# .venv\Scripts\Activate.ps1
+```
+#### Windows PowerShell
+```bash
+.venv\Scripts\Activate.ps1
+```
 
 ## 📦 4. Instalar dependencias
 Instala todas las dependencias declaradas en 'requirements.txt':
 ```bash
 uv pip install -r requirements.txt
 ```
-recuerda que si llegas a agregar nuevas librerias, deberás actualizar el archivo
+>recuerda que si llegas a agregar nuevas librerias, deberás actualizar el archivo
 ```bash
 uv pip freeze > requirements.txt
 ```
@@ -54,14 +65,20 @@ uv pip freeze > requirements.txt
 ## 📂 5. Estructura del repositorio
 .
 ├── data/
-│   ├── covid-vaccination-vs-death_ratio.csv
+│   ├── covid-vaccination-vs-death_ratio.csv      # Dataset utilizado para análisis
+│   ├── synthetic_covid19_data.csv                # Dataset sintético
+│
 ├── src/
-│   └── index_proyecto_grupal.ipynb
-├── ppt/
-├── assets/
-├── requirements.txt
-├── README.md
-└── LICENSE
+│   └── index_proyecto_grupal.ipynb               # Notebook principal (EDA + storytelling)
+│
+├── ppt/                                          # Presentación final del proyecto
+│
+├── assets/                                       # Imágenes y recursos gráficos
+│
+├── requirements.txt                              # Dependencias del entorno reproducible
+├── README.md                                     # Documentación principal
+└── LICENSE                                       # Licencia del proyecto
+
 
 ## 📊 6. Contenidos del análisis
 
