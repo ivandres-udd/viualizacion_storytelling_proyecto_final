@@ -141,7 +141,6 @@ En los tres países se observa:
 
 * Correlación negativa moderada entre ratio de vacunación y nuevas muertes.
 
-la tendencia es clara:
 * A mayor vacunación, menor mortalidad.
 
 ### 📉 6. Distribución inicial: ¿Qué tan vacunado estaba el mundo?
