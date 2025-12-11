@@ -91,28 +91,102 @@ uv pip freeze > requirements.txt
 
 ```
 
-## 📊 6. Contenidos del análisis
+## 📊 6. Resumen del Análisis y Visualizaciones
 
-El notebook desarrolla un flujo completo de análisis y storytelling basado en datos COVID-19, incluyendo:
+A continuación se presenta un punteo estructurado que resume todo el análisis realizado a lo largo del proyecto, integrando cada visualización con su aporte narrativo.
 
-- **Carga y limpieza de datos**
-  - Unificación de datasets reales y sintéticos.
-  - Conversión de tipos y manejo de valores faltantes.
+### 🧭 1. Contexto inicial: La pandemia y sus primeras consecuencias
 
-- **Análisis Exploratorio (EDA)**
-  - Exploración de tendencias temporales.
-  - Identificación de patrones epidemiológicos.
-  - Análisis descriptivo por país y región.
+* Se observa una alta mortalidad global durante los primeros meses de pandemia, especialmente en potencias como Estados Unidos, India, Brasil y Rusia.
 
-- **Visualizaciones**
-  - Gráficas con **Matplotlib**, **Seaborn**, **Altair** y **Plotly**.
-  - Heatmaps, distribuciones, series de tiempo y comparaciones multivariadas.
-  - Visualizaciones interactivas para explorar correlaciones clave.
+* El gráfico de evolución de mortalidad para los 10 países con mayor mortalidad absoluta evidencia peaks dramáticos entre fines de 2020 y mediados de 2021.
 
-- **Storytelling**
-  - Construcción de una narrativa que conecta los hallazgos con preguntas relevantes.
-  - Uso de gráficos para justificar decisiones y comunicar insights.
-  - Reflexión final sobre implicancias de los patrones observados.
+* La disponibilidad de vacunas aún era limitada, lo que explica por qué la mayoría de los países no superaba el 10% de vacunación los primeros tres meses.
+
+### 🌍 2. Comparativo global: primeros 3 meses vs últimos 3 meses
+#### 2.1 Mortalidad acumulada
+
+Los mapas muestran que:
+
+* En los primeros 3 meses, el mundo enfrenta tasas de mortalidad extremadamente elevadas.
+
+* En los últimos 3 meses, muchos países presentan reducciones significativas, aunque otros (EE.UU., Perú, Rusia) mantienen niveles altos.
+
+#### 2.2 Vacunación global
+
+El mapa evidencia una clara brecha de distribución:
+
+* Países con vacunación temprana: Estados Unidos, Reino Unido, Chile, Emiratos Árabes.
+
+* Rezago marcado en África y Medio Oriente debido a dificultades logísticas y acceso limitado.
+
+### 📈 3. Tendencia global: Vacunación vs Mortalidad
+
+El gráfico de tendencia mundial muestra:
+
+* Aumento sostenido de vacunación desde enero 2021.
+
+* Caída abrupta de la mortalidad promedio global, pasando de ~6.7 muertes/millón a cerca de 2.5 muertes/millón.
+
+* Este gráfico representa el punto de quiebre del storytelling: cuando más del 25% de la población mundial se vacunó, la curva de mortalidad cambió radicalmente.
+
+### 🇺🇸🇧🇷🇮🇳 4. Caso Países Top 3: Efecto directo de la vacunación
+
+(Estados Unidos – Brasil – India)
+
+En los tres países se observa:
+
+* Aumento pronunciado de vacunación durante 2021.
+
+* Disminución significativa de las muertes una vez alcanzados niveles medianos de inmunización.
+
+* La relación visual destaca que el impacto no es inmediato, pero sí consistente en el mediano plazo.
+
+### 🔬 5. Evidencia estadística: Correlación entre variables
+
+El heatmap confirma:
+
+* Fuerte correlación positiva entre total_vaccinations, people_vaccinated y population.
+
+* Correlación negativa moderada entre ratio de vacunación y nuevas muertes.
+
+Aunque no es extremadamente negativa, la tendencia es clara:
+* A mayor vacunación, menor mortalidad.
+
+### 📉 6. Distribución inicial: ¿Qué tan vacunado estaba el mundo?
+
+El histograma muestra que:
+
+* En febrero 2021 la enorme mayoría de países tenía menos del 10% de vacunación.
+
+* La falta de disponibilidad global fue clave en la persistencia de altas tasas de mortalidad iniciales.
+
+### 🧩 7. Conclusiones integradas del análisis
+
+* La vacunación masiva representó el mayor factor de reducción de mortalidad global.
+
+* El impacto fue visible tanto a nivel país como a nivel mundial, especialmente después del segundo trimestre de 2021.
+
+* Persisten diferencias marcadas entre regiones debido a factores logísticos, económicos y políticos.
+
+La vacuna no lo fue todo:
+* El autocuidado y restricciones siguieron siendo determinantes en los periodos intermedios.
+
+* La inmunidad de rebaño comenzó a lograrse entre 25%–40% de la población inmunizada, coherente con la caída global de muertes.
+
+### 🧠 8. Síntesis para storytelling (ABT Framework)
+#### AND – Contexto
+
+* El mundo sufre una ola inicial de mortalidad explosiva y avanza lentamente en distribución de vacunas.
+
+#### BUT – Punto de quiebre
+
+* Pero a mediados de 2021, cuando la vacunación toma ritmo global, las tasas de mortalidad comienzan a caer de manera evidente y consistente.
+
+#### THEREFORE – Conclusión
+
+* Por lo tanto, la evidencia muestra que la rápida inmunización global fue clave para frenar la mortalidad, aunque la desigualdad en el acceso retrasó los beneficios para grandes regiones del planeta.
+
 
 ---
 
