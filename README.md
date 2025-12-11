@@ -105,23 +105,17 @@ uv pip freeze > requirements.txt
 ### 🌍 2. Comparativo global: primeros 3 meses vs últimos 3 meses
 #### 2.1 Mortalidad acumulada
 
-Los mapas muestran que:
-
 * En los primeros 3 meses, el mundo enfrenta tasas de mortalidad extremadamente elevadas.
 
 * En los últimos 3 meses, muchos países presentan reducciones significativas, aunque otros (EE.UU., Perú, Rusia) mantienen niveles altos.
 
 #### 2.2 Vacunación global
 
-El mapa evidencia una clara brecha de distribución:
-
 * Países con vacunación temprana: Estados Unidos, Reino Unido, Chile, Emiratos Árabes.
 
 * Rezago marcado en África y Medio Oriente debido a dificultades logísticas y acceso limitado.
 
 ### 📈 3. Tendencia global: Vacunación vs Mortalidad
-
-El gráfico de tendencia mundial muestra:
 
 * Aumento sostenido de vacunación desde enero 2021.
 
@@ -143,18 +137,14 @@ En los tres países se observa:
 
 ### 🔬 5. Evidencia estadística: Correlación entre variables
 
-El heatmap confirma:
-
 * Fuerte correlación positiva entre total_vaccinations, people_vaccinated y population.
 
 * Correlación negativa moderada entre ratio de vacunación y nuevas muertes.
 
-Aunque no es extremadamente negativa, la tendencia es clara:
+la tendencia es clara:
 * A mayor vacunación, menor mortalidad.
 
 ### 📉 6. Distribución inicial: ¿Qué tan vacunado estaba el mundo?
-
-El histograma muestra que:
 
 * En febrero 2021 la enorme mayoría de países tenía menos del 10% de vacunación.
 
