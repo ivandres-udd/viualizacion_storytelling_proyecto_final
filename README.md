@@ -7,6 +7,7 @@ El análisis principal está implementado en el notebook:
 - `src/index_proyecto_grupal.ipynb`
 
 Tambien, dejamos link del chat que utilizamos para el desrrollo de esta actividad:
+
 👉 Visita Chat: https://gemini.google.com/share/1cdc5fa76e92
 
 ---
